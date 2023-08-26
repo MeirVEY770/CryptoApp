@@ -29,6 +29,8 @@
 		24914D9B2A8FEEE500827A3D /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24914D9A2A8FEEE500827A3D /* Double.swift */; };
 		24914D9D2A8FFC4000827A3D /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24914D9C2A8FFC4000827A3D /* HomeViewModel.swift */; };
 		24914DA02A9005DA00827A3D /* CoinDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24914D9F2A9005DA00827A3D /* CoinDataService.swift */; };
+		24CA1CF32A9A4F8B0091A51B /* MarketDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CA1CF22A9A4F8B0091A51B /* MarketDataModel.swift */; };
+		24CA1CF52A9A55320091A51B /* MarketDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CA1CF42A9A55320091A51B /* MarketDataService.swift */; };
 		24EE194B2A967B0500620750 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EE194A2A967B0500620750 /* SearchBarView.swift */; };
 		24FD21D52A967257000E445D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FD21D42A967257000E445D /* HomeView.swift */; };
 /* End PBXBuildFile section */
@@ -57,6 +59,8 @@
 		24914D9A2A8FEEE500827A3D /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
 		24914D9C2A8FFC4000827A3D /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		24914D9F2A9005DA00827A3D /* CoinDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDataService.swift; sourceTree = "<group>"; };
+		24CA1CF22A9A4F8B0091A51B /* MarketDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketDataModel.swift; sourceTree = "<group>"; };
+		24CA1CF42A9A55320091A51B /* MarketDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketDataService.swift; sourceTree = "<group>"; };
 		24EE194A2A967B0500620750 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 		24FD21D42A967257000E445D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -202,6 +206,7 @@
 			children = (
 				24914D942A8FD2A100827A3D /* CoinModel.swift */,
 				2436E8172A9955B500C078BC /* StatisticModel.swift */,
+				24CA1CF22A9A4F8B0091A51B /* MarketDataModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -211,6 +216,7 @@
 			children = (
 				24914D9F2A9005DA00827A3D /* CoinDataService.swift */,
 				2490D6922A915ABA000F5B50 /* CoinImageService.swift */,
+				24CA1CF42A9A55320091A51B /* MarketDataService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -291,6 +297,7 @@
 				24914D9D2A8FFC4000827A3D /* HomeViewModel.swift in Sources */,
 				2406602E2A8F8A1B001D93D4 /* ContentView.swift in Sources */,
 				2490D6972A91691F000F5B50 /* LocalFileManager.swift in Sources */,
+				24CA1CF32A9A4F8B0091A51B /* MarketDataModel.swift in Sources */,
 				2490D6912A91587F000F5B50 /* CoinImageView.swift in Sources */,
 				2436E81A2A99572500C078BC /* StatisticView.swift in Sources */,
 				2406602C2A8F8A1B001D93D4 /* CryptoApp.swift in Sources */,
@@ -301,6 +308,7 @@
 				24EE194B2A967B0500620750 /* SearchBarView.swift in Sources */,
 				24FD21D52A967257000E445D /* HomeView.swift in Sources */,
 				2436E81C2A995C3500C078BC /* HomeStatsView.swift in Sources */,
+				24CA1CF52A9A55320091A51B /* MarketDataService.swift in Sources */,
 				24914D922A8FCE3F00827A3D /* CircleButtonAnimationView.swift in Sources */,
 				2490D6952A915D00000F5B50 /* CoinImageViewModel.swift in Sources */,
 				24914D992A8FE4BC00827A3D /* PreviewProvider.swift in Sources */,
@@ -438,7 +446,7 @@
 				DEVELOPMENT_TEAM = 247W83BULT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Crypto Tracker";
+				INFOPLIST_KEY_CFBundleDisplayName = Crypto;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -468,7 +476,7 @@
 				DEVELOPMENT_TEAM = 247W83BULT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Crypto Tracker";
+				INFOPLIST_KEY_CFBundleDisplayName = Crypto;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
